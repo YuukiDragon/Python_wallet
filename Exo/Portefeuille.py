@@ -3,9 +3,10 @@ class Portefeuille:
     def __init__(self, valeur, devise):
         self.valeur = valeur
         self.devise = devise
-        self.
-dollar = int(1000)
-# def monnaie():
+
+
+#Creation porte monnaie
+Portefeuille = portefeuille1(100,"Euros")
 
 
 # retrait

@@ -6,10 +6,8 @@ class Portefeuille:
 
 
 #Creation porte monnaie
-Portefeuille = portefeuille1(100,"Euros")
+Portefeuille1 = Portefeuille(100,"Euros")
 
 
-# retrait
 # Créer un porte-monnai
-monportefeuille = Portefeuille()
-print(monportefeuille)
+Portefeuille1.ajouter(int(input("Ajouter le montant souhaité")),"euros")

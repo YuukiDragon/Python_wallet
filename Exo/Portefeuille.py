@@ -4,10 +4,16 @@ class Portefeuille:
         self.valeur = valeur
         self.devise = devise
 
+    def ajouter (self, valeur, devise):
+        if self.devise==devise:
+            self.valeur=self.valeur+valeur
+        else:
+            print("Erreur de devise")
+
 
 #Creation porte monnaie
 Portefeuille1 = Portefeuille(100,"Euros")
 
 
-# Créer un porte-monnai
+# Ajout d'argent
 Portefeuille1.ajouter(int(input("Ajouter le montant souhaité")),"euros")

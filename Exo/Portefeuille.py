@@ -1,6 +1,6 @@
 class Portefeuille:
 
-    def __init__(self, S, E, L):
+    def __init__(self, valeur, devise):
         self.dollar = S = 5000
         self.euro = E = 3000
         self.pounds = L = 2000
